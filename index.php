@@ -39,7 +39,7 @@
             width: 100%;
             margin-right: 5px;
             border: 1px solid #ddd;
-
+            font-weight: bold;
             border-radius: 4px;
             box-sizing: border-box;
         }
@@ -48,12 +48,12 @@
             width: 100%;
             margin-right: 5px;
             border: 1px solid #ddd;
-
+            font-weight: bold;
             border-radius: 4px;
             box-sizing: border-box;
         }
         input[type='button'] {
-            background-color: #5cb85c;
+            background-color: #878484;
             color: white;
             width: 25%;
             border: none;
@@ -61,18 +61,19 @@
             transition: background-color 0.3s;
         }
         input[type='buttonremove'] {
-            background-color: #f75e5e;
+            background-color: #878484;
             color: white;
             width: 25%;
             border: none;
+            text-align: center;
             cursor: pointer;
             transition: background-color 0.3s;
         }
         input[type='button']:hover {
-            background-color: #878484;
+            background-color: #5cb85c;
         }
         input[type='buttonremove']:hover {
-            background-color: #878484;
+            background-color: #f75e5e;
         }
         .video-container {
             margin-top: 20px;
@@ -108,6 +109,8 @@
                 In the background, the loader will fetch the client settings and establish a media session.<br> 
                 The media session will be used to load the videos.<br>
                 The loader will also save the access token and MP4 URL's in local storage.<br>
+                <br>
+                <a href="https://github.com/mvleest-code/mp4MediaTester" target="_blank"><strong>MP4 Media Tester on Github</strong><br></a>
             </p>
         </code>
         <br><br>
